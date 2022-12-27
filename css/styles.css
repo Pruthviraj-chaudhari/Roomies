@@ -1,0 +1,465 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 800;
+}
+
+h4 {
+  color: #3e4247;
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+p {
+  color: #717171;
+}
+
+
+
+#title {
+  background-color: #F47C7C;
+  text-align: left;
+}
+
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.big-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.testimonial-text {
+  font-size: 40px;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* navbar hover effect */
+
+.menu3 a {
+  display: block;
+  position: relative;
+  color: #fff;
+  transition: all 300ms;
+}
+
+.menu3 a:after {
+  left: 0rem;
+
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  display: block;
+  transition: all 0.6s ease;
+  bottom: 2%;
+}
+
+.menu3 a:hover::after {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+
+/* Download Button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  top: 27%;
+  left: 10%;
+}
+
+
+/* features */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.icon {
+  color: #EF9F9F;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #F47C7C;
+}
+
+/* testimonials */
+#testimonials {
+
+
+  background-color: #EF9F9F;
+  color: #fff;
+}
+
+
+.testimonial-image {
+  width: 10%;
+  height: 10%;
+  border-radius: 100%;
+  margin: 5px;
+}
+
+.testimonial-image {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+
+}
+
+.testimonial-image:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#press {
+  background-color: #EF9F9F;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 15px 15px 40px;
+}
+
+.press-logo {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+
+}
+
+.press-logo:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.carousel-item {
+  height: auto;
+  padding: 7% 15%;
+}
+
+@media (max-width:700px) {
+  .carousel-inner {
+    padding-bottom: 1%;
+
+  }
+
+  .testimonial-text {
+    font-size: 1rem;
+  }
+
+  .carousel-item em {
+    font-size: .5rem;
+  }
+
+  .testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 5px;
+  }
+
+  .press-logo {
+    width: 20%;
+    margin: 10px 10px 40px;
+  }
+
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 10%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-card {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+
+}
+
+.pricing-card:hover {
+  -webkit-box-shadow: 0px 4px 70px -18px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 4px 70px -18px rgba(0, 0, 0, 1);
+  box-shadow: 0px 4px 70px -18px rgba(0, 0, 0, 1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@media (max-width: 1028px) {
+  .pricing-column {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    margin-right: 50px;
+   
+  }
+
+}
+
+/* CTA */
+
+#cta {
+  background-color: #F47C7C;
+
+}
+
+.bottom {
+  padding: 7% 15%;
+  color: #fff;
+
+}
+
+.bottom h3 {
+  font-size: 3rem;
+}
+
+/* Footer */
+
+#footer {
+
+  padding: 7% 15%;
+}
+
+
+
+/* ***************Student.HTML begins here **************************8*/
+
+/* Search Box */
+.height {
+
+  height: 10vh;
+}
+
+.form {
+
+  position: relative;
+}
+
+.form .fa-search {
+
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #9ca3af;
+
+}
+
+.form span {
+
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan {
+  padding-left: 7px;
+}
+
+.left-pan i {
+
+  padding-left: 10px;
+}
+
+.form-input {
+
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 10px;
+}
+
+.form-input:focus {
+
+  box-shadow: none;
+  border: none;
+}
+
+/* Rooms section */
+
+#rooms {
+
+  padding: 2% 2%;
+}
+
+.images-container {
+  margin: 4% 0%;
+  text-align: left;
+}
+
+.room-img {
+
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+  margin-bottom: 5%;
+  background-size: cover;
+
+}
+
+.room-description {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3e4247;
+  font-size: 1rem;
+  line-height: 0.3rem;
+
+  margin-bottom: 1.2rem;
+}
+
+.room-rent {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width:1000px) {
+  .room-img {
+
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    margin-bottom: 4%;
+
+  }
+
+  .images-container {
+    margin: 4% 0%;
+    margin-left: 70px;
+    text-align: left;
+    width: auto;
+  }
+
+
+
+  .room-rent {
+    font-size: 1rem;
+  }
+
+  .room-description {
+    color: #3e4247;
+    font-size: 0.5rem;
+    line-height: 0em;
+    margin-bottom: 0.8rem;
+  }
+}
+
+/* Zoom In #1 */
+.images-container {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.images-container:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* pricing */
+/* Pricing Section */
+
+.pricing-student {
+  background-color: #F47C7C;
+  padding: 100px;
+}
+
+.pricing-heading {
+  color: #fff;
+  font-size: 3rem;
+  padding: 7% 15% 3% 15%;
+}
+
+.discription {
+  margin: 0;
+}
+
+/* footer */
+
+.fa-brands {
+  color: #717171;
+  margin: 20px 10px;
+}
+
+.fa-envelope {
+  color: #717171;
+  margin: 20px 10px;
+}

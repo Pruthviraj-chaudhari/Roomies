@@ -353,6 +353,12 @@ p {
   border: none;
 }
 
+@media (max-width: 800px){
+  input::placeholder {
+    font-size: 0.8rem;
+  }
+}
+
 /* Rooms section */
 
 #rooms {
